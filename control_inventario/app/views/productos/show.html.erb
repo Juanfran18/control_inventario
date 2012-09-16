@@ -1,0 +1,48 @@
+<p>
+  <b>Marca:</b>
+  <%=h @producto.Marca %>
+</p>
+
+<p>
+  <b>Modelo:</b>
+  <%=h @producto.Modelo %>
+</p>
+
+<p>
+  <b>Tipo:</b>
+  <%=h @producto.Tipo %>
+</p>
+
+<p>
+  <b>Descripcion:</b>
+  <%=h @producto.Descripcion %>
+</p>
+
+<p>
+  <b>Valor unitario:</b>
+  <%=h @producto.Valor_Unitario %>
+</p>
+
+<p>
+  <b>Ingresos:</b>
+  <%=h @producto.Ingresos %>
+</p>
+
+<p>
+  <b>Salidas:</b>
+  <%=h @producto.Salidas %>
+</p>
+
+<p>
+  <b>Existencias:</b>
+  <%=h @producto.Existencias %>
+</p>
+
+<p>
+  <b>Valor del inventario:</b>
+  <%=h @producto.Valor_del_inventario %>
+</p>
+
+
+<%= link_to 'Edit', edit_producto_path(@producto) %> |
+<%= link_to 'Back', productos_path %>

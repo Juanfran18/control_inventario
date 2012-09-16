@@ -1,0 +1,48 @@
+<h1>Editing producto</h1>
+
+<% form_for(@producto) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :Marca %><br />
+    <%= f.text_field :Marca %>
+  </p>
+  <p>
+    <%= f.label :Modelo %><br />
+    <%= f.text_field :Modelo %>
+  </p>
+  <p>
+    <%= f.label :Tipo %><br />
+    <%= f.text_field :Tipo %>
+  </p>
+  <p>
+    <%= f.label :Descripcion %><br />
+    <%= f.text_field :Descripcion %>
+  </p>
+  <p>
+    <%= f.label :Valor_Unitario %><br />
+    <%= f.text_field :Valor_Unitario %>
+  </p>
+  <p>
+    <%= f.label :Ingresos %><br />
+    <%= f.text_field :Ingresos %>
+  </p>
+  <p>
+    <%= f.label :Salidas %><br />
+    <%= f.text_field :Salidas %>
+  </p>
+  <p>
+    <%= f.label :Existencias %><br />
+    <%= f.text_field :Existencias %>
+  </p>
+  <p>
+    <%= f.label :Valor_del_inventario %><br />
+    <%= f.text_field :Valor_del_inventario %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @producto %> |
+<%= link_to 'Back', productos_path %>
