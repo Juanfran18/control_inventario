@@ -1,5 +1,5 @@
 ActionController::Routing::Routes.draw do |map|
-  map.resources :productos
+  map.resources :historials
 
   map.resources :proveedors
 

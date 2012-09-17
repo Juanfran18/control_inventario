@@ -1,0 +1,17 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  proveedor_id: 1
+  producto_id: 1
+  cliente: 1
+  entrada: 1
+  salida: 1
+  fecha: 2012-09-17
+
+two:
+  proveedor_id: 1
+  producto_id: 1
+  cliente: 1
+  entrada: 1
+  salida: 1
+  fecha: 2012-09-17
