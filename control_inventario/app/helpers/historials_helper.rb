@@ -1,2 +1,0 @@
-module HistorialsHelper
-end
