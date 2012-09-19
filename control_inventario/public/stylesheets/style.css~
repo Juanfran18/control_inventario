@@ -1,0 +1,112 @@
+/** CSS RESET **/
+body{ padding: 0; margin: 0; font: 13px Arial, Helvetica, Garuda, sans-serif; *font-size: small; *font: x-small; }
+h1, h2, h3, h4, h5, h6, ul, li, em, pre, code{
+			padding: 0; margin: 0; line-height: 1em; font-size: 100%; font-weight: normal; font-style: normal;
+			}
+table{ font-size: inherit; font: 100%; }
+ul{ list-style: none; }
+img{ border: 0; }
+p{ margin: 1em 0; }
+input, textarea, select{ border: none; background: none; outline: none; }
+
+/** ADDING THE NON WEBSAFE FONTS **/
+@font-face {
+    font-family: 'custom-font';
+    src: url('../fonts/jennasue-webfont.eot');
+    src: url('../fonts/jennasue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/jennasue-webfont.woff') format('woff'),
+         url('../fonts/jennasue-webfont.ttf') format('truetype'),
+         url('../fonts/jennasue-webfont.svg#JennaSueRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/** COVERIN' THE BASICS **/
+body{ background: url(../img/background.png) top left repeat #eeebe6; font-family: Arial, Helvetica,sans-serif;
+	  margin: 0px;
+	}
+
+h1{ font-size: 38px; color: #383839; }
+h2{ font-size: 34px; color: #383839; }
+h3{ font-size: 30px; color: #383839; }
+h4{ font-size: 26px; color: #383839; }
+h5{ font-size: 22px; color: #383839; }
+h6{ font-size: 20px; color: #383839; }
+
+.custom-font{ font-family: 'custom-font'; color: #000000; }
+
+p{ color: #4c4c4c; font-size: 12px; line-height: 18px; }
+
+blockquote{ background: #e1ddd5; border: 1px solid #ada595; padding: 15px; color: #4c4c4c; font-size: 12px; font-style: italic; }
+
+.highlight{ background: #f8f7f6; padding: 4px; }
+
+a{ text-decoration: none; color: #383839; outline: none; }
+a img{ border: none; }
+
+img, input[type="text"], textarea, select{ background: #e4e2df; padding: 6px; border: 1px solid #c3bbab; }
+
+.spacer{ clear:both; height: 0px; } 
+
+/** WRAPPER **/
+.wrapper{ width: 950px; margin-left: auto; margin-right: auto; }
+
+/** HEADER **/
+.header{ margin-top: 20px; margin-bottom: 20px; }
+.logo{ font-size: 43px; float: left; }
+.logo a span{ font-size: 35px; }
+.logo a img{ vertical-align: -20%; border: none; background:#667F03 url("../img/header/logo.png") no-repeat; padding: 0px; ;} }
+.navigation{ float: right; margin-top: 6px; }
+.navigation ul li{ float: left; padding: 5px 10px; border-right: 1px solid #949495; }
+.navigation ul li:hover{ background: #e4e2df; }
+.navigation ul li a{ display: block; font-size: 20px; color: #383839; }
+.navigation ul li span{ padding-top: 5px; display: block; }
+.navigation ul .last{ border: none; }
+.navigation ul .current{ background: #e4e2df; }
+
+/** HOME TOP **/
+.home-top-left{ float: left; margin-right: 10px; }
+.home-top-right{ float: right; width: 570px; }
+
+/** HOME BOTTOM **/
+.home-bottom{ margin-top: 20px; }
+.home-bottom-column{ float: left; margin-left: 20px; }
+
+/** PORTFOLIO FREE CSS **/
+.portfolio-free-row{ margin-top: 30px; }
+.portfolio-free-item{ float: left; margin-left: 20px; width: 465px; }
+.portfolio-free-item-text{ margin-top: 10px; }
+.portfolio-free-item-text h2{ margin: 0px; }
+.portfolio-free-item-text p{ margin-top: 0px; width: 445px; margin-left: 10px; }
+
+/** CONTACT FREE **/
+.contact{ margin-top: 20px; margin-bottom: 50px; }
+.contact-form-free{ }
+.contact-form{ }
+.contact-form-row{ margin-top: 15px; }
+.contact-form-item{ float: left; margin-left: 24px; }
+.contact-form-item label{ display: block; }
+.contact-form-item-full label{ display: block; }
+.contact-form-row label{ font-size: 15px; color: #383839; margin-bottom: 5px; }
+.contact-form-item-submit input{ background: url(../img/contact/send-message.png) top left no-repeat; width: 111px; height: 40px;
+								 float: right;
+							   }
+.contact-form-free{ width: 568px; margin-left: auto; margin-right: auto; }
+.contact-header-free{ text-align: center; }
+
+/** FOOTER **/
+.footer{ width: 910px; background: #e1ddd5; padding: 20px; border-top: 3px solid #cdc7bc; margin-top: 15px; }
+.footer-left{ float: left; }
+.footer-logo{ font-size: 26px; display: block; margin-bottom: -10px; padding: 0px; }
+.footer-link{ color: #383839; }
+.footer-left font{ padding: 6px; }
+.footer-right{ float: right; }
+.footer-right span{ display: block; color: #383839; text-align: right; }
+.footer-right span a{ text-decoration: underline; }
+
+/** AFTER CSS **/
+.first{ margin-left: 0px; }
+.size3{ width: 258px; }
+.size5{ width: 555px; }
+.height1{ height: 90px; }

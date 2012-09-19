@@ -1,0 +1,15 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  proveedores_id: 1
+  Nombre: MyText
+  Descripcion: MyString
+  Precio_Unitario: 9.99
+  Existencias: 1
+
+two:
+  proveedores_id: 1
+  Nombre: MyText
+  Descripcion: MyString
+  Precio_Unitario: 9.99
+  Existencias: 1

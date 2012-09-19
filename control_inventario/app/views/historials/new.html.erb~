@@ -1,0 +1,35 @@
+<h1>Nuevo Movimiento</h1>
+
+<% form_for(@historial) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :productos_id %><br />
+    <%= f.text_field :productos_id %>
+  </p>
+  <p>
+    <%= f.label :proveedores_id %><br />
+    <%= f.text_field :proveedores_id %>
+  </p>
+  <p>
+    <%= f.label :clientes_id %><br />
+    <%= f.text_field :clientes_id %>
+  </p>
+  <p>
+    <%= f.label :Entrada %><br />
+    <%= f.text_field :Entrada %>
+  </p>
+  <p>
+    <%= f.label :salida %><br />
+    <%= f.text_field :salida %>
+  </p>
+  <p>
+    <%= f.label :Precio_total %><br />
+    <%= f.text_field :Precio_total %>
+  </p>
+  <p>
+    <%= f.submit 'Create' %>
+  </p>
+<% end %>
+
+<%= link_to 'Back', historials_path %>

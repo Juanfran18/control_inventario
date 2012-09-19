@@ -1,0 +1,39 @@
+<p>
+  <b>Nombre:</b>
+  <%=h @proveedore.Nombre %>
+</p>
+
+<p>
+  <b>Nit:</b>
+  <%=h @proveedore.Nit %>
+</p>
+
+<p>
+  <b>Pais:</b>
+  <%=h @proveedore.Pais %>
+</p>
+
+<p>
+  <b>Direccion:</b>
+  <%=h @proveedore.Direccion %>
+</p>
+
+<p>
+  <b>Telefono:</b>
+  <%=h @proveedore.Telefono %>
+</p>
+
+<p>
+  <b>Fax:</b>
+  <%=h @proveedore.Fax %>
+</p>
+
+<p>
+  <b>Email:</b>
+  <%=h @proveedore.Email %>
+</p>
+
+
+
+<%= link_to 'Editar', edit_proveedore_path(@proveedore) %> |
+<%= link_to 'Regrear', proveedores_path %>

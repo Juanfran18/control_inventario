@@ -1,0 +1,38 @@
+<p>
+  <b>Nombre:</b>
+  <%=h @cliente.Nombre %>
+</p>
+
+<p>
+  <b>Nit:</b>
+  <%=h @cliente.Nit %>
+</p>
+
+<p>
+  <b>Pais:</b>
+  <%=h @cliente.Pais %>
+</p>
+
+<p>
+  <b>Direccion:</b>
+  <%=h @cliente.Direccion %>
+</p>
+
+<p>
+  <b>Telefono:</b>
+  <%=h @cliente.Telefono %>
+</p>
+
+<p>
+  <b>Fax:</b>
+  <%=h @cliente.Fax %>
+</p>
+
+<p>
+  <b>Email:</b>
+  <%=h @cliente.Email %>
+</p>
+
+
+<%= link_to 'Edit', edit_cliente_path(@cliente) %> |
+<%= link_to '<img src="/img/back.png" width=15, heidht=15 >', clientes_path %>

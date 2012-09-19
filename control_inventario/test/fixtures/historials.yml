@@ -1,0 +1,17 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  productos_id: 1
+  proveedores_id: 1
+  clientes_id: 1
+  Entrada: 1
+  salida: 1
+  Precio_total: 9.99
+
+two:
+  productos_id: 1
+  proveedores_id: 1
+  clientes_id: 1
+  Entrada: 1
+  salida: 1
+  Precio_total: 9.99

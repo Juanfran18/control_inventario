@@ -1,0 +1,31 @@
+<center>
+<br>
+<br>
+<h1>Lista de Productos</h1>
+<br>
+<table border>
+  <tr>
+    <th>Proveedores</th>
+    <th>Nombre</th>
+    <th>Descripcion</th>
+    <th>Precio unitario</th>
+    <th>Existencias</th>
+  </tr>
+
+<% @productos.each do |producto| %>
+  <tr>
+    <td><%=h producto.proveedores_id %></td>
+    <td><%=h producto.Nombre %></td>
+    <td><%=h producto.Descripcion %></td>
+    <td><%=h producto.Precio_Unitario %></td>
+    <td><%=h producto.Existencias %></td>
+    <td><%= link_to 'Show', producto %></td>
+    <td><%= link_to 'Edit', edit_producto_path(producto) %></td>
+    <td><%= link_to 'Destroy', producto, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+</center>
+<br />
+
+<%= link_to '<img src="/img/add.png" width=25, heidht=25 >Agregar Producto', new_producto_path %>

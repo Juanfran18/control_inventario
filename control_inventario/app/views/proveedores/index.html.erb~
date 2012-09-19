@@ -1,0 +1,37 @@
+<br>
+<br>
+<center>
+<h1>Lista de proveedores</h1>
+<br>
+<br>
+<table border>
+  <tr>
+    <th>Nombre</th>
+    <th>Nit</th>
+    <th>Pais</th>
+    <th>Direccion</th>
+    <th>Telefono</th>
+    <th>Fax</th>
+    <th>Email</th>
+    <th>Editar</th>
+    <th>Eliminar</th>
+  </tr>
+
+<% @proveedores.each do |proveedore| %>
+  <tr>
+    <td><%= link_to proveedore.Nombre, proveedore %></td>
+    <td><%=h proveedore.Nit %></td>
+    <td><%=h proveedore.Pais %></td>
+    <td><%=h proveedore.Direccion %></td>
+    <td><%=h proveedore.Telefono %></td>
+    <td><%=h proveedore.Fax %></td>
+    <td><%=h proveedore.Email %></td>
+    <td><%= link_to '<img src="/img/reload.png" width=15, heidht=15 >', edit_proveedore_path(proveedore) %></td>
+    <td><%= link_to '<img src="/img/remove.png" width=15, heidht=15 >', proveedore, :confirm => 'Esta seguro?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+</center>
+<br />
+
+<%= link_to 'Crear nuevo Proveedor', new_proveedore_path %>

@@ -1,0 +1,36 @@
+<center>
+<br>
+<br>
+<h1>Lista de clientes</h1>
+<br>
+<table border>
+  <tr>
+    <th>Nombre</th>
+    <th>Nit</th>
+    <th>Pais</th>
+    <th>Direccion</th>
+    <th>Telefono</th>
+    <th>Fax</th>
+    <th>Email</th>
+    <th>Editar</th>
+    <th>Eliminar</th>
+  </tr>
+
+<% @clientes.each do |cliente| %>
+  <tr>
+    <td><%=link_to cliente.Nombre, cliente %></td>
+    <td><%=h cliente.Nit %></td>
+    <td><%=h cliente.Pais %></td>
+    <td><%=h cliente.Direccion %></td>
+    <td><%=h cliente.Telefono %></td>
+    <td><%=h cliente.Fax %></td>
+    <td><%=h cliente.Email %></td>
+    <td><%= link_to '<img src="/img/reload.png" width=15, heidht=15 >', edit_cliente_path(cliente) %></td>
+    <td><center><%= link_to '<img src="/img/remove.png" width=15, heidht=15 >', cliente, :confirm => 'Esta seguro?', :method => :delete %></center></td>
+  </tr>
+<% end %>
+</table>
+</center>
+<br />
+
+<%= link_to '<img src="/img/add.png" width=25, heidht=25 >Agregar cliente', new_cliente_path %>

@@ -1,0 +1,41 @@
+<h1>Nuevo proveedor</h1>
+<center>
+<% form_for(@proveedore) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :Nombre %><br />
+    <%= f.text_field :Nombre %>
+  </p>
+  <p>
+    <%= f.label :Nit %><br />
+    <%= f.text_field :Nit %>
+  </p>
+  <p>
+    <%= f.label :Pais %><br />
+    <%= f.text_field :Pais %>
+  </p>
+  <p>
+    <%= f.label :Direccion %><br />
+    <%= f.text_field :Direccion %>
+  </p>
+  <p>
+    <%= f.label :Telefono %><br />
+    <%= f.text_field :Telefono %>
+  </p>
+  <p>
+    <%= f.label :Fax %><br />
+    <%= f.text_field :Fax %>
+  </p>
+  <p>
+    <%= f.label :Email %><br />
+    <%= f.text_field :Email %>
+  </p>
+</center>
+  <p>
+    <%= f.submit 'Crear' %>
+    
+  </p>
+<% end %>
+
+<%= link_to 'Regresar', proveedores_path %>

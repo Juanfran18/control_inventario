@@ -1,0 +1,28 @@
+<p>
+  <b>Proveedores:</b>
+  <%=h @producto.proveedores_id %>
+</p>
+
+<p>
+  <b>Nombre:</b>
+  <%=h @producto.Nombre %>
+</p>
+
+<p>
+  <b>Descripcion:</b>
+  <%=h @producto.Descripcion %>
+</p>
+
+<p>
+  <b>Precio unitario:</b>
+  <%=h @producto.Precio_Unitario %>
+</p>
+
+<p>
+  <b>Existencias:</b>
+  <%=h @producto.Existencias %>
+</p>
+
+
+<%= link_to '<img src="/img/reload.png" width=15, heidht=15 >', edit_producto_path(@producto) %> |
+<%= link_to '<img src="/img/back.png" width=15, heidht=15 >', productos_path %>

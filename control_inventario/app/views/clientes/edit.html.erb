@@ -1,0 +1,40 @@
+<h1>Editando informacion del cliente</h1>
+
+<% form_for(@cliente) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :Nombre %><br />
+    <%= f.text_field :Nombre %>
+  </p>
+  <p>
+    <%= f.label :Nit %><br />
+    <%= f.text_field :Nit %>
+  </p>
+  <p>
+    <%= f.label :Pais %><br />
+    <%= f.text_field :Pais %>
+  </p>
+  <p>
+    <%= f.label :Direccion %><br />
+    <%= f.text_field :Direccion %>
+  </p>
+  <p>
+    <%= f.label :Telefono %><br />
+    <%= f.text_field :Telefono %>
+  </p>
+  <p>
+    <%= f.label :Fax %><br />
+    <%= f.text_field :Fax %>
+  </p>
+  <p>
+    <%= f.label :Email %><br />
+    <%= f.text_field :Email %>
+  </p>
+  <p>
+    <%= f.submit 'Actualizar' %>
+  </p>
+<% end %>
+
+<%= link_to '<img src="/img/show.png" width=25, heidht=15 >', @cliente %> |
+<%= link_to '<img src="/img/back.png" width=15, heidht=15 >', clientes_path %>

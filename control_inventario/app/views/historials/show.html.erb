@@ -1,0 +1,33 @@
+<p>
+  <b>Productos:</b>
+  <%=h @historial.productos_id %>
+</p>
+
+<p>
+  <b>Proveedores:</b>
+  <%=h @historial.proveedores_id %>
+</p>
+
+<p>
+  <b>Clientes:</b>
+  <%=h @historial.clientes_id %>
+</p>
+
+<p>
+  <b>Entrada:</b>
+  <%=h @historial.Entrada %>
+</p>
+
+<p>
+  <b>Salida:</b>
+  <%=h @historial.salida %>
+</p>
+
+<p>
+  <b>Precio total:</b>
+  <%=h @historial.Precio_total %>
+</p>
+
+
+<%= link_to 'Edit', edit_historial_path(@historial) %> |
+<%= link_to '<img src="/img/back.png" width=15, heidht=15 >', historials_path %>
