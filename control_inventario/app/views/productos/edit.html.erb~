@@ -24,7 +24,7 @@
     <%= f.text_field :Existencias %>
   </p>
   <p>
-    <%= f.submit 'Update' %>
+    <%= f.submit 'Actualizar' %>
   </p>
 <% end %>
 
