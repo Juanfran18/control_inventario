@@ -1,19 +1,20 @@
 <h1>Nuevo Movimiento</h1>
 
 <% form_for(@historial) do |f| %>
-  <%= f.error_messages %>
+ <%= f.error_messages %>
+
 
   <p>
-    <%= f.label :productos_id %><br />
-    <%= f.text_field :productos_id %>
+    <%= f.label :proveedores_id %><br />
+    <%= f.collection_select :proveedore_id, Proveedore.all, :id, :Nombre%>
   </p>
   <p>
-    <%= f.label :proveedores_id %><br />
-    <%= f.text_field :proveedores_id %>
+    <%= f.label :producto_id %><br />    
+     <%= f.collection_select :producto_id, Producto.all, :id, :Nombre%> 
   </p>
   <p>
     <%= f.label :clientes_id %><br />
-    <%= f.text_field :clientes_id %>
+    <%= f.collection_select :cliente_id, Cliente.all, :id, :Nit %>
   </p>
   <p>
     <%= f.label :Entrada %><br />

@@ -1,0 +1,7 @@
+class Historial < ActiveRecord::Base
+      	has_many :proveedores   
+	has_many :productos 
+	has_many :clientes
+
+	validates_presence_of :fecha
+end

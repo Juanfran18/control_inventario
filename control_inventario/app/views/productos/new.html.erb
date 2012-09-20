@@ -1,11 +1,11 @@
-<h1>New producto</h1>
+<h1>Nuevo producto</h1>
 
 <% form_for(@producto) do |f| %>
   <%= f.error_messages %>
 
   <p>
-    <%= f.label :proveedores_id %><br />
-    <%= f.text_field :proveedores_id %>
+    <%= f.label :proveedore_id %><br />
+      <%= f.collection_select :proveedore_id, Proveedore.all, :id, :Nombre%>   
   </p>
   <p>
     <%= f.label :Nombre %><br />

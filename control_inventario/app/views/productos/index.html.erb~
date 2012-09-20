@@ -5,23 +5,24 @@
 <br>
 <table border>
   <tr>
-    <th>Proveedores</th>
+    <th>Proveedor</th>
     <th>Nombre</th>
     <th>Descripcion</th>
     <th>Precio unitario</th>
     <th>Existencias</th>
+    <th>Editar</th>
+    <th>Eliminar</th>
   </tr>
 
 <% @productos.each do |producto| %>
   <tr>
-    <td><%=h producto.proveedores_id %></td>
+    <td><%=link_to producto.proveedore_id, producto %></td>
     <td><%=h producto.Nombre %></td>
     <td><%=h producto.Descripcion %></td>
-    <td><%=h producto.Precio_Unitario %></td>
+    <td><center><%=h producto.Precio_Unitario %></center></td>
     <td><%=h producto.Existencias %></td>
-    <td><%= link_to 'Show', producto %></td>
-    <td><%= link_to 'Edit', edit_producto_path(producto) %></td>
-    <td><%= link_to 'Destroy', producto, :confirm => 'Are you sure?', :method => :delete %></td>
+    <td><%= link_to '<img src="/img/reload.png" width=15, heidht=15 >', edit_producto_path(producto) %></td>
+    <td><%= link_to '<img src="/img/remove.png" width=15, heidht=15 >', producto, :confirm => 'Are you sure?', :method => :delete %></td>
   </tr>
 <% end %>
 </table>

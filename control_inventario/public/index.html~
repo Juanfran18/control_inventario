@@ -83,9 +83,10 @@
 				<br>
 				GitHub es una forja para alojar proyectos utilizando el sistema de control de versiones Git. Utiliza el
                                 framework Ruby on Rails por GitHub, Inc. Desde enero de 2010, GitHub opera bajo el nombre de GitHub, Inc. El   
-                                codigo se almacena de forma publica, aunque también se puede hacer de forma privada, creando una cuenta de
+                                codigo se almacena de forma publica, aunque tambien se puede hacer de forma privada, creando una cuenta de
                                 pago.
 			</p>
+                        		
 			
 		</div>
 		<!-- END HOME TOP RIGHT -->
@@ -122,6 +123,7 @@
 			
 			<span class="copyright">&copy; Copyright <a href="#">JER S.A.</a>. All rights reserved.</span>
 			<span class="branding">Design by F.Rodriguez E.Rodriguez R.Gonsalez | 2012</span>
+			<a href="http://juanfran18.github.com/control_inventario" class="footer-link" target="_blank" >Descarga el codigo</a>
 			
 		</div>
 		<!-- END FOOTER RIGHT -->

@@ -1,0 +1,19 @@
+class CreateHistorials < ActiveRecord::Migration
+  def self.up
+    create_table :historials do |t|
+      t.integer :producto_id
+      t.integer :proveedore_id
+      t.integer :cliente_id
+      t.integer :Entrada
+      t.integer :salida
+      t.decimal :Precio_total
+      t.datetime :fecha
+
+      t.timestamps
+    end
+  end
+
+  def self.down
+    drop_table :historials
+  end
+end

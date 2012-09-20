@@ -5,23 +5,23 @@
 <br>
 <table border>
   <tr>
-    <th>Productos</th>
-    <th>Proveedores</th>
+    <th>Producto</th>
+    <th>Proveedor</th>
     <th>Clientes</th>
     <th>Entrada</th>
     <th>Salida</th>
     <th>Precio total</th>
+    <th>fecha</th>
   </tr>
 
 <% @historials.each do |historial| %>
   <tr>
-    <td><%=h historial.productos_id %></td>
-    <td><%=h historial.proveedores_id %></td>
-    <td><%=h historial.clientes_id %></td>
+    <td><%=h historial.producto_id %></td>
+    <td><%=h historial.proveedore_id %></td>
+    <td><%=h historial.cliente_id %></td>
     <td><%=h historial.Entrada %></td>
     <td><%=h historial.salida %></td>
     <td><%=h historial.Precio_total %></td>
-    < 
   </tr>
 <% end %>
 </table>
