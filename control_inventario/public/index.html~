@@ -1,0 +1,132 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+	<!-- META TAGS -->
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+	<meta name="description" content="Free web portfolio by Kazoto @ kazoto.com" />
+	<meta name="keywords" content="tan, portfolio, kazoto, free, free web template, free portfolio,
+								   premium template, premium portfolio, premium portfolio template,
+								   free portfolio template, free web tools
+								  " />
+	<meta name="author" content="Izikeo @ Kazoto (intirtec.izikeo@gmail.com)" />
+	
+	<!-- TITLE -->
+	<title>Control de inventario</title>
+	
+	<!-- STYLE SHEETS -->
+	<link href="css/style.css" type="text/css" rel="stylesheet" media="screen" />
+	<link href="css/nivo-slider.css" type="text/css" rel="stylesheet" media="screen" />
+	<link rel="stylesheet" href="css/themes/default/default.css" type="text/css" media="screen" />
+	
+	
+</head>
+<body>
+
+<!-- WRAPPER -->
+<div class="wrapper">
+	
+	<!-- HEADER -->
+	<div class="header">
+		
+		<!-- LOGO -->
+		<div class="logo"><a href="index.html" class="custom-font"><span class="ie6-png-fix"></span><img src="img/header/logo.png" class="logo-img"> J<span>ER S.A</span></a></div>
+		
+		<!-- NAVIGATION -->
+		<div class="navigation">
+			<ul>
+				<li><a href="/index.html">Inicio</a><span>Quienes somos</span></li>
+				<li class="current"><a href="/proveedores">Proveedores</a><span>Listado de proveedores</span></li>
+				<li><a href="/Clientes">Clientes</a><span>Listado de Clientes</span></li>
+				<li class="current"><a href="/productos">Productos</a><span>Listado de producto</span></li>
+				<li class="last"><a href="/historials">Historial</a><span>Movimientos en bodega</span></li>
+			</ul>
+		</div>
+		<!-- END NAVIGATION -->
+		
+		<div class="spacer"></div><!-- TO FIX FLOAT ISSUES -->
+		
+	</div>
+	<!-- END HEADER -->
+	
+	<!-- HOME TOP CONTENT -->
+	<div class="home-top">
+		
+		<!-- HOME TOP LEFT (IMAGE) -->
+		<div class="home-top-left">
+			<img src="img/header/Tecnologia_001.png"width=300,height=300>
+		</div>
+		<!-- END HOME TOP LEFT -->
+		
+		<!-- HOME TOP RIGHT (TEXT) -->
+		<div class="home-top-right">
+			
+			<h1 class="custom-font">Quienes somos.</h1>
+			
+			<p>
+				Somos una empresa netamente Guatemalteca, con el fin de brindar productos y servicios, reparacion,
+                                mantenimiento e instalacion de productos tecnologicos, siendo el principal objetivo el proporcionar
+                                a nuestros clientes productos innovadores a traves de los cuales puedan satisfacer sus necesidades
+                                brindandoles en todo momento lo mejor en soporte y calidad.
+				<br>
+			</p>	
+                                <h1 class="custom-font">Objetivos.</h1>
+                                
+			<p>
+				Nam risus massa, tristique ut posuere sed, blandit vitae orci. Duis eget dolor vel nisl aliquet 
+				elementum. Vivamus tristique gravida turpis, quis laoreet erat sodales vehicula. Pellentesque 
+				id lorem mauris. Phasellus quis aliquam nibh. Sed cursus tellus ut orci lobortis sodales. 
+				Pellentesque dictum adipiscing leo eget dapibus. Donec ac pretium augue. Ut quis mauris 
+				mauris, eu condimentum quam. Phasellus mattis porta ornare.
+			</p>
+			
+		</div>
+		<!-- END HOME TOP RIGHT -->
+		
+		<div class="spacer"></div><!-- TO FIX FLOAT ISSUES -->
+		
+	</div>
+	<!-- END HOME TOP CONTENT -->
+
+	
+	<!-- FOOTER -->
+	<div class="footer">
+		
+		<!-- FOOTER LEFT -->
+		<div class="footer-left">
+			
+			<!-- FOOTER LOGO -->
+			<a href="#" class="footer-logo custom-font">JER S.A.</a> 
+			
+			<!-- FOOTER NAVIGATION -->
+			<a href="/index" class="footer-link">inicio</a>
+			<font>-</font>
+			<a href="/proveedores" class="footer-link">Proveedores</a>
+			<font>-</font>	
+			<a href="/clientes" class="footer-link">Clientes</a>
+			<font>-</font>	
+			<a href="/productor" class="footer-link">Producto</a>
+			<font>-</font>	
+			<a href="/historials" class="footer-link">Historial</a>
+		</div>
+		<!-- END FOOTER LEFT -->
+		
+		<!-- FOOTER RIGHT -->
+		<div class="footer-right">
+			
+			<span class="copyright">&copy; Copyright <a href="#">JER S.A.</a>. All rights reserved.</span>
+			<span class="branding">Design by F.Rodriguez E.Rodriguez R.Gonsalez | 2012</span>
+			
+		</div>
+		<!-- END FOOTER RIGHT -->
+		
+		<div class="spacer"></div><!-- TO FIX FLOAT ISSUES -->
+		
+	</div>
+	<!-- END FOOTER -->
+	
+</div>
+<!-- END WRAPPER -->
+
+</body>
+</html>
