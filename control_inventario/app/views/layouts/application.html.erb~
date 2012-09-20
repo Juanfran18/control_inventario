@@ -63,6 +63,8 @@
 			<a href="/clientes" class="footer-link">Clientes</a>
 			<font>-</font>	
 			<a href="/productor" class="footer-link">Producto</a>
+			<font>-</font>	
+			<a href="/historials" class="footer-link">Historial</a>
 		</div>
 		<!-- END FOOTER LEFT -->
 		

@@ -6582,3 +6582,1353 @@ Processing HistorialsController#index (for 127.0.0.1 at 2012-09-19 17:29:32) [GE
 Rendering template within layouts/application
 Rendering historials/index
 Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/historials]
+
+
+Processing ProveedoresController#index (for 127.0.0.1 at 2012-09-19 18:21:08) [GET]
+  [4;36;1mProveedore Load (0.4ms)[0m   [0;1mSELECT * FROM "proveedores" [0m
+Rendering template within layouts/application
+Rendering proveedores/index
+Completed in 14ms (View: 11, DB: 0) | 200 OK [http://localhost/proveedores]
+
+
+Processing ProveedoresController#index (for 127.0.0.1 at 2012-09-19 18:22:30) [GET]
+  [4;35;1mProveedore Load (0.4ms)[0m   [0mSELECT * FROM "proveedores" [0m
+Rendering template within layouts/application
+Rendering proveedores/index
+Completed in 11ms (View: 7, DB: 0) | 200 OK [http://localhost/proveedores]
+
+
+Processing ProveedoresController#index (for 127.0.0.1 at 2012-09-19 18:23:21) [GET]
+  [4;36;1mProveedore Load (0.3ms)[0m   [0;1mSELECT * FROM "proveedores" [0m
+Rendering template within layouts/application
+Rendering proveedores/index
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/proveedores]
+
+
+Processing ProveedoresController#index (for 127.0.0.1 at 2012-09-19 18:24:07) [GET]
+  [4;35;1mProveedore Load (0.5ms)[0m   [0mSELECT * FROM "proveedores" [0m
+Rendering template within layouts/application
+Rendering proveedores/index
+Completed in 11ms (View: 6, DB: 0) | 200 OK [http://localhost/proveedores]
+
+
+Processing ProveedoresController#index (for 127.0.0.1 at 2012-09-19 18:25:34) [GET]
+  [4;36;1mProveedore Load (0.6ms)[0m   [0;1mSELECT * FROM "proveedores" [0m
+Rendering template within layouts/application
+Rendering proveedores/index
+Completed in 11ms (View: 6, DB: 1) | 200 OK [http://localhost/proveedores]
+
+
+Processing ProveedoresController#index (for 127.0.0.1 at 2012-09-19 18:26:05) [GET]
+  [4;35;1mProveedore Load (0.4ms)[0m   [0mSELECT * FROM "proveedores" [0m
+Rendering template within layouts/application
+Rendering proveedores/index
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://localhost/proveedores]
+
+
+Processing ProveedoresController#index (for 127.0.0.1 at 2012-09-19 18:27:27) [GET]
+  [4;36;1mProveedore Load (0.3ms)[0m   [0;1mSELECT * FROM "proveedores" [0m
+Rendering template within layouts/application
+Rendering proveedores/index
+Completed in 8ms (View: 4, DB: 0) | 200 OK [http://localhost/proveedores]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-19 18:36:41) [GET]
+
+ActionController::RoutingError (No route matches "/img/index/sample-images/one-third-one.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-19 18:36:41) [GET]
+
+ActionController::RoutingError (No route matches "/img/index/sample-images/one-third-two.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-19 18:36:41) [GET]
+
+ActionController::RoutingError (No route matches "/img/index/sample-images/one-third-three.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-19 18:38:23) [GET]
+
+ActionController::RoutingError (No route matches "/img/index/sample-images/one-half.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-19 18:38:23) [GET]
+
+ActionController::RoutingError (No route matches "/img/index/sample-images/one-third-one.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-19 18:38:23) [GET]
+
+ActionController::RoutingError (No route matches "/img/index/sample-images/one-third-two.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-19 18:38:23) [GET]
+
+ActionController::RoutingError (No route matches "/img/index/sample-images/one-third-three.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-19 18:38:45) [GET]
+
+ActionController::RoutingError (No route matches "/img/index/sample-images/one-half.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 09:12:47) [GET]
+
+ActionController::RoutingError (No route matches "/img/Rails.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 09:13:02) [GET]
+
+ActionController::RoutingError (No route matches "/css/nivo-slider.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 09:13:02) [GET]
+
+ActionController::RoutingError (No route matches "/css/themes/default/default.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 09:13:02) [GET]
+
+ActionController::RoutingError (No route matches "/img/Rails.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ProveedoresController#index (for 127.0.0.1 at 2012-09-20 09:13:04) [GET]
+  [4;36;1mProveedore Load (0.5ms)[0m   [0;1mSELECT * FROM "proveedores" [0m
+Rendering template within layouts/application
+Rendering proveedores/index
+Completed in 133ms (View: 128, DB: 1) | 200 OK [http://localhost/proveedores]
+
+
+Processing ProveedoresController#new (for 127.0.0.1 at 2012-09-20 09:13:06) [GET]
+Rendering template within layouts/application
+Rendering proveedores/new
+Completed in 11ms (View: 8, DB: 0) | 200 OK [http://localhost/proveedores/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 09:23:32) [GET]
+
+ActionController::RoutingError (No route matches "/css/nivo-slider.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 09:23:32) [GET]
+
+ActionController::RoutingError (No route matches "/css/themes/default/default.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 09:24:05) [GET]
+
+ActionController::RoutingError (No route matches "/css/nivo-slider.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 09:24:05) [GET]
+
+ActionController::RoutingError (No route matches "/css/themes/default/default.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 09:24:22) [GET]
+
+ActionController::RoutingError (No route matches "/css/nivo-slider.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 09:24:22) [GET]
+
+ActionController::RoutingError (No route matches "/css/themes/default/default.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 09:24:43) [GET]
+
+ActionController::RoutingError (No route matches "/css/nivo-slider.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 09:24:43) [GET]
+
+ActionController::RoutingError (No route matches "/css/themes/default/default.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 09:25:02) [GET]
+
+ActionController::RoutingError (No route matches "/css/nivo-slider.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 09:25:02) [GET]
+
+ActionController::RoutingError (No route matches "/css/themes/default/default.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 09:25:30) [GET]
+
+ActionController::RoutingError (No route matches "/css/nivo-slider.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 09:25:30) [GET]
+
+ActionController::RoutingError (No route matches "/css/themes/default/default.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 09:25:48) [GET]
+
+ActionController::RoutingError (No route matches "/css/nivo-slider.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 09:25:48) [GET]
+
+ActionController::RoutingError (No route matches "/css/themes/default/default.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 09:26:42) [GET]
+
+ActionController::RoutingError (No route matches "/css/nivo-slider.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 09:26:42) [GET]
+
+ActionController::RoutingError (No route matches "/css/themes/default/default.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 09:28:37) [GET]
+
+ActionController::RoutingError (No route matches "/css/nivo-slider.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 09:28:37) [GET]
+
+ActionController::RoutingError (No route matches "/css/themes/default/default.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 09:28:37) [GET]
+
+ActionController::RoutingError (No route matches "/img/index/sample-images/one-third-three.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 09:29:53) [GET]
+
+ActionController::RoutingError (No route matches "/css/nivo-slider.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 09:29:53) [GET]
+
+ActionController::RoutingError (No route matches "/css/themes/default/default.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 09:29:53) [GET]
+
+ActionController::RoutingError (No route matches "/img/index/sample-images/one-third-three.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 09:30:18) [GET]
+
+ActionController::RoutingError (No route matches "/css/nivo-slider.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 09:30:18) [GET]
+
+ActionController::RoutingError (No route matches "/css/themes/default/default.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 09:30:19) [GET]
+
+ActionController::RoutingError (No route matches "/img/index/sample-images/one-third-three.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 09:32:30) [GET]
+
+ActionController::RoutingError (No route matches "/css/nivo-slider.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 09:32:30) [GET]
+
+ActionController::RoutingError (No route matches "/css/themes/default/default.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 09:32:30) [GET]
+
+ActionController::RoutingError (No route matches "/img/index/sample-images/one-third-three.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 09:32:40) [GET]
+
+ActionController::RoutingError (No route matches "/css/nivo-slider.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 09:32:40) [GET]
+
+ActionController::RoutingError (No route matches "/css/themes/default/default.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 09:32:40) [GET]
+
+ActionController::RoutingError (No route matches "/img/index/sample-images/one-third-three.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 09:32:50) [GET]
+
+ActionController::RoutingError (No route matches "/css/nivo-slider.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 09:32:50) [GET]
+
+ActionController::RoutingError (No route matches "/css/themes/default/default.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 09:32:50) [GET]
+
+ActionController::RoutingError (No route matches "/img/index/sample-images/one-third-three.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 09:33:07) [GET]
+
+ActionController::RoutingError (No route matches "/css/nivo-slider.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 09:33:07) [GET]
+
+ActionController::RoutingError (No route matches "/css/themes/default/default.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 09:33:07) [GET]
+
+ActionController::RoutingError (No route matches "/img/index/sample-images/one-third-three.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 09:33:08) [GET]
+
+ActionController::RoutingError (No route matches "/css/nivo-slider.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 09:33:08) [GET]
+
+ActionController::RoutingError (No route matches "/css/themes/default/default.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 09:33:08) [GET]
+
+ActionController::RoutingError (No route matches "/img/index/sample-images/one-third-three.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 09:33:22) [GET]
+
+ActionController::RoutingError (No route matches "/css/nivo-slider.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 09:33:22) [GET]
+
+ActionController::RoutingError (No route matches "/css/themes/default/default.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 09:33:22) [GET]
+
+ActionController::RoutingError (No route matches "/img/index/sample-images/one-third-three.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 09:33:34) [GET]
+
+ActionController::RoutingError (No route matches "/css/nivo-slider.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 09:33:34) [GET]
+
+ActionController::RoutingError (No route matches "/css/themes/default/default.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 09:33:34) [GET]
+
+ActionController::RoutingError (No route matches "/img/index/sample-images/one-third-three.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 09:34:07) [GET]
+
+ActionController::RoutingError (No route matches "/css/nivo-slider.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 09:34:07) [GET]
+
+ActionController::RoutingError (No route matches "/css/themes/default/default.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 09:34:07) [GET]
+
+ActionController::RoutingError (No route matches "/img/index/sample-images/one-third-three.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 09:34:21) [GET]
+
+ActionController::RoutingError (No route matches "/css/nivo-slider.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 09:34:21) [GET]
+
+ActionController::RoutingError (No route matches "/css/themes/default/default.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 09:34:21) [GET]
+
+ActionController::RoutingError (No route matches "/img/index/sample-images/one-third-three.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 09:36:30) [GET]
+
+ActionController::RoutingError (No route matches "/css/nivo-slider.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 09:36:30) [GET]
+
+ActionController::RoutingError (No route matches "/css/themes/default/default.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 09:36:30) [GET]
+
+ActionController::RoutingError (No route matches "/img/index/sample-images/one-third-three.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 09:37:55) [GET]
+
+ActionController::RoutingError (No route matches "/css/nivo-slider.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 09:37:55) [GET]
+
+ActionController::RoutingError (No route matches "/css/themes/default/default.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 09:37:55) [GET]
+
+ActionController::RoutingError (No route matches "/imggithub.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 09:37:56) [GET]
+
+ActionController::RoutingError (No route matches "/css/nivo-slider.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 09:37:56) [GET]
+
+ActionController::RoutingError (No route matches "/css/themes/default/default.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 09:37:56) [GET]
+
+ActionController::RoutingError (No route matches "/imggithub.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 09:38:18) [GET]
+
+ActionController::RoutingError (No route matches "/css/nivo-slider.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 09:38:18) [GET]
+
+ActionController::RoutingError (No route matches "/css/themes/default/default.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 09:39:30) [GET]
+
+ActionController::RoutingError (No route matches "/css/nivo-slider.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 09:39:30) [GET]
+
+ActionController::RoutingError (No route matches "/css/themes/default/default.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 09:39:41) [GET]
+
+ActionController::RoutingError (No route matches "/css/nivo-slider.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 09:39:41) [GET]
+
+ActionController::RoutingError (No route matches "/css/themes/default/default.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 09:39:53) [GET]
+
+ActionController::RoutingError (No route matches "/css/nivo-slider.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 09:39:53) [GET]
+
+ActionController::RoutingError (No route matches "/css/themes/default/default.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 09:40:05) [GET]
+
+ActionController::RoutingError (No route matches "/css/nivo-slider.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 09:40:05) [GET]
+
+ActionController::RoutingError (No route matches "/css/themes/default/default.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 09:41:24) [GET]
+
+ActionController::RoutingError (No route matches "/css/nivo-slider.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 09:41:24) [GET]
+
+ActionController::RoutingError (No route matches "/css/themes/default/default.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 09:41:25) [GET]
+
+ActionController::RoutingError (No route matches "/css/nivo-slider.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 09:41:25) [GET]
+
+ActionController::RoutingError (No route matches "/css/themes/default/default.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 09:41:26) [GET]
+
+ActionController::RoutingError (No route matches "/css/nivo-slider.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 09:41:26) [GET]
+
+ActionController::RoutingError (No route matches "/css/themes/default/default.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 09:42:19) [GET]
+
+ActionController::RoutingError (No route matches "/css/nivo-slider.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 09:42:19) [GET]
+
+ActionController::RoutingError (No route matches "/css/themes/default/default.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 09:43:01) [GET]
+
+ActionController::RoutingError (No route matches "/css/nivo-slider.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 09:43:01) [GET]
+
+ActionController::RoutingError (No route matches "/css/themes/default/default.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 09:43:16) [GET]
+
+ActionController::RoutingError (No route matches "/css/nivo-slider.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 09:43:16) [GET]
+
+ActionController::RoutingError (No route matches "/css/themes/default/default.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 09:43:39) [GET]
+
+ActionController::RoutingError (No route matches "/css/nivo-slider.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 09:43:39) [GET]
+
+ActionController::RoutingError (No route matches "/css/themes/default/default.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 09:52:00) [GET]
+
+ActionController::RoutingError (No route matches "/css/nivo-slider.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 09:52:00) [GET]
+
+ActionController::RoutingError (No route matches "/css/themes/default/default.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 09:52:25) [GET]
+
+ActionController::RoutingError (No route matches "/css/nivo-slider.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 09:52:25) [GET]
+
+ActionController::RoutingError (No route matches "/css/themes/default/default.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 10:00:17) [GET]
+
+ActionController::RoutingError (No route matches "/css/nivo-slider.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 10:00:17) [GET]
+
+ActionController::RoutingError (No route matches "/css/themes/default/default.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 10:00:35) [GET]
+
+ActionController::RoutingError (No route matches "/css/nivo-slider.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 10:00:35) [GET]
+
+ActionController::RoutingError (No route matches "/css/themes/default/default.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 10:00:59) [GET]
+
+ActionController::RoutingError (No route matches "/css/nivo-slider.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 10:00:59) [GET]
+
+ActionController::RoutingError (No route matches "/css/themes/default/default.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 10:04:12) [GET]
+
+ActionController::RoutingError (No route matches "/css/nivo-slider.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 10:04:12) [GET]
+
+ActionController::RoutingError (No route matches "/css/themes/default/default.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 10:04:31) [GET]
+
+ActionController::RoutingError (No route matches "/css/nivo-slider.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 10:04:31) [GET]
+
+ActionController::RoutingError (No route matches "/css/themes/default/default.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 10:08:04) [GET]
+
+ActionController::RoutingError (No route matches "/css/nivo-slider.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 10:08:04) [GET]
+
+ActionController::RoutingError (No route matches "/css/themes/default/default.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 10:08:32) [GET]
+
+ActionController::RoutingError (No route matches "/css/nivo-slider.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 10:08:32) [GET]
+
+ActionController::RoutingError (No route matches "/css/themes/default/default.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 10:10:19) [GET]
+
+ActionController::RoutingError (No route matches "/css/nivo-slider.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 10:10:19) [GET]
+
+ActionController::RoutingError (No route matches "/css/themes/default/default.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 10:10:40) [GET]
+
+ActionController::RoutingError (No route matches "/css/nivo-slider.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 10:10:40) [GET]
+
+ActionController::RoutingError (No route matches "/css/themes/default/default.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 10:11:03) [GET]
+
+ActionController::RoutingError (No route matches "/css/nivo-slider.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 10:11:03) [GET]
+
+ActionController::RoutingError (No route matches "/css/themes/default/default.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 10:12:25) [GET]
+
+ActionController::RoutingError (No route matches "/css/nivo-slider.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 10:12:25) [GET]
+
+ActionController::RoutingError (No route matches "/css/themes/default/default.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 10:12:58) [GET]
+
+ActionController::RoutingError (No route matches "/css/nivo-slider.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 10:12:58) [GET]
+
+ActionController::RoutingError (No route matches "/css/themes/default/default.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 10:14:39) [GET]
+
+ActionController::RoutingError (No route matches "/css/nivo-slider.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 10:14:39) [GET]
+
+ActionController::RoutingError (No route matches "/css/themes/default/default.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 10:15:37) [GET]
+
+ActionController::RoutingError (No route matches "/css/nivo-slider.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 10:15:37) [GET]
+
+ActionController::RoutingError (No route matches "/css/themes/default/default.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 10:15:53) [GET]
+
+ActionController::RoutingError (No route matches "/css/nivo-slider.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 10:15:53) [GET]
+
+ActionController::RoutingError (No route matches "/css/themes/default/default.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 10:16:18) [GET]
+
+ActionController::RoutingError (No route matches "/css/nivo-slider.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 10:16:18) [GET]
+
+ActionController::RoutingError (No route matches "/css/themes/default/default.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 10:16:39) [GET]
+
+ActionController::RoutingError (No route matches "/css/nivo-slider.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 10:16:39) [GET]
+
+ActionController::RoutingError (No route matches "/css/themes/default/default.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 10:16:51) [GET]
+
+ActionController::RoutingError (No route matches "/css/nivo-slider.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 10:16:51) [GET]
+
+ActionController::RoutingError (No route matches "/css/themes/default/default.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 10:18:49) [GET]
+
+ActionController::RoutingError (No route matches "/css/nivo-slider.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 10:18:49) [GET]
+
+ActionController::RoutingError (No route matches "/css/themes/default/default.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 10:19:06) [GET]
+
+ActionController::RoutingError (No route matches "/css/nivo-slider.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 10:19:06) [GET]
+
+ActionController::RoutingError (No route matches "/css/themes/default/default.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 10:24:58) [GET]
+
+ActionController::RoutingError (No route matches "/css/nivo-slider.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 10:24:58) [GET]
+
+ActionController::RoutingError (No route matches "/css/themes/default/default.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 10:25:18) [GET]
+
+ActionController::RoutingError (No route matches "/css/nivo-slider.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 10:25:18) [GET]
+
+ActionController::RoutingError (No route matches "/css/themes/default/default.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 10:25:30) [GET]
+
+ActionController::RoutingError (No route matches "/css/nivo-slider.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 10:25:30) [GET]
+
+ActionController::RoutingError (No route matches "/css/themes/default/default.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 10:25:40) [GET]
+
+ActionController::RoutingError (No route matches "/css/nivo-slider.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 10:25:40) [GET]
+
+ActionController::RoutingError (No route matches "/css/themes/default/default.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HistorialsController#index (for 127.0.0.1 at 2012-09-20 10:26:14) [GET]
+  [4;35;1mHistorial Load (0.5ms)[0m   [0mSELECT * FROM "historials" [0m
+Rendering template within layouts/application
+Rendering historials/index
+Completed in 10ms (View: 4, DB: 1) | 200 OK [http://localhost/historials]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 10:26:17) [GET]
+
+ActionController::RoutingError (No route matches "/css/nivo-slider.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 10:26:17) [GET]
+
+ActionController::RoutingError (No route matches "/css/themes/default/default.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 10:28:19) [GET]
+
+ActionController::RoutingError (No route matches "/css/nivo-slider.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 10:28:19) [GET]
+
+ActionController::RoutingError (No route matches "/css/themes/default/default.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ProductosController#index (for 127.0.0.1 at 2012-09-20 10:28:22) [GET]
+  [4;36;1mProducto Load (0.4ms)[0m   [0;1mSELECT * FROM "productos" [0m
+Rendering template within layouts/application
+Rendering productos/index
+Completed in 14ms (View: 10, DB: 0) | 200 OK [http://localhost/productos]
+
+
+Processing ProductosController#new (for 127.0.0.1 at 2012-09-20 10:28:23) [GET]
+Rendering template within layouts/application
+Rendering productos/new
+Completed in 40ms (View: 38, DB: 0) | 200 OK [http://localhost/productos/new]
+
+
+Processing ProductosController#index (for 127.0.0.1 at 2012-09-20 10:28:26) [GET]
+  [4;35;1mProducto Load (0.3ms)[0m   [0mSELECT * FROM "productos" [0m
+Rendering template within layouts/application
+Rendering productos/index
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/productos]
+
+
+Processing ProductosController#new (for 127.0.0.1 at 2012-09-20 10:28:28) [GET]
+Rendering template within layouts/application
+Rendering productos/new
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://localhost/productos/new]
+
+
+Processing ProductosController#create (for 127.0.0.1 at 2012-09-20 10:28:36) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"qv5GnqMJn+nzhZFQBevl7hC53IU4HYbwg7BGp0jxt38=", "producto"=>{"Precio_Unitario"=>"", "Existencias"=>"", "proveedores_id"=>"hola", "Descripcion"=>"", "Nombre"=>"dasda"}}
+  [4;36;1mProducto Create (0.2ms)[0m   [0;1mINSERT INTO "productos" ("updated_at", "Precio_Unitario", "Existencias", "proveedores_id", "Nombre", "Descripcion", "created_at") VALUES('2012-09-20 16:28:36', NULL, NULL, 0, 'dasda', '', '2012-09-20 16:28:36')[0m
+Redirected to http://localhost:3000/productos/1
+Completed in 238ms (DB: 0) | 302 Found [http://localhost/productos]
+
+
+Processing ProductosController#show (for 127.0.0.1 at 2012-09-20 10:28:36) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mProducto Load (0.1ms)[0m   [0mSELECT * FROM "productos" WHERE ("productos"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering productos/show
+Completed in 7ms (View: 3, DB: 0) | 200 OK [http://localhost/productos/1]
+
+
+Processing ProductosController#edit (for 127.0.0.1 at 2012-09-20 10:28:38) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mProducto Load (0.2ms)[0m   [0;1mSELECT * FROM "productos" WHERE ("productos"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering productos/edit
+Completed in 11ms (View: 7, DB: 0) | 200 OK [http://localhost/productos/1/edit]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-20 10:28:38) [GET]
+
+ActionController::RoutingError (No route matches "/productos/img/header/logo.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
