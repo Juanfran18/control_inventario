@@ -52,10 +52,7 @@
 	<!-- HOME TOP CONTENT -->
 	<div class="home-top">
 		
-		<!-- HOME TOP LEFT (IMAGE) -->
-		<div class="home-top-left">
-			<img src="img/header/Tecnologia_001.png"width=300,height=300>
-		</div>
+		
 		<!-- END HOME TOP LEFT -->
 		
 		<!-- HOME TOP RIGHT (TEXT) -->
@@ -64,20 +61,30 @@
 			<h1 class="custom-font">Quienes somos.</h1>
 			
 			<p>
-				Somos una empresa netamente Guatemalteca, con el fin de brindar productos y servicios, reparacion,
-                                mantenimiento e instalacion de productos tecnologicos, siendo el principal objetivo el proporcionar
-                                a nuestros clientes productos innovadores a traves de los cuales puedan satisfacer sus necesidades
-                                brindandoles en todo momento lo mejor en soporte y calidad.
+				Somos un grupo de estudiantes de la Universidad Mariano Galvez de Guatemala, Raul Gonzalez (0900 11 6629),     
+                                Edwin Rodriguez (0900 11 1251), y Juan Rodriguez (0900 11 1807), que recibimos el curso de Programacion
+                                Avanzada con el Ing. Raul Herrera, que nos asigno como proyecto la realizacion de un programa que fuera capaz
+                                de llevar a cabo el control de inventarios de una empresa. El progrma consta de cuatro partes que es la de
+                                proveedores, clientes, productos y la de historial que es donde se lleva a cabo todos los movimientos del
+                                inventario (entrada y/o salida).   
 				<br>
 			</p>	
-                                <h1 class="custom-font">Objetivos.</h1>
-                                
+                        <h1 class="custom-font">Herramientas.</h1>
+                        <h6>Las herramientas que utilizamos fueron:</h6>      
 			<p>
-				Nam risus massa, tristique ut posuere sed, blandit vitae orci. Duis eget dolor vel nisl aliquet 
-				elementum. Vivamus tristique gravida turpis, quis laoreet erat sodales vehicula. Pellentesque 
-				id lorem mauris. Phasellus quis aliquam nibh. Sed cursus tellus ut orci lobortis sodales. 
-				Pellentesque dictum adipiscing leo eget dapibus. Donec ac pretium augue. Ut quis mauris 
-				mauris, eu condimentum quam. Phasellus mattis porta ornare.
+				<img src="img/ruby.jpg"width=117,height=150> 
+				<br>
+				<br>	  
+                                Ruby on Rails tambien conocido como RoR o Rails es un framework de aplicaciones web de codigo abierto escrito 					en el lenguaje de programacion Ruby, siguiendo el paradigma de la arquitectura Modelo Vista Controlador (MVC). 					Trata de combinar la simplicidad con la posibilidad de desarrollar aplicaciones del mundo real escribiendo 					menos codigo que con otros frameworks y con un minimo de configuracion. El lenguaje de programacion Ruby 					permite la metaprogramacion, de la cual Rails hace uso, lo que resulta en una sintaxis que muchos de sus 					usuarios encuentran muy legible. Rails se distribuye a traves de RubyGems, que es el formato oficial de 				paquete y canal de distribucion de bibliotecas y aplicaciones Ruby.
+                                <br>
+				<br>
+				<img src="img/github.png"width=75,height=170>
+				<br>
+				<br>
+				GitHub es una forja para alojar proyectos utilizando el sistema de control de versiones Git. Utiliza el
+                                framework Ruby on Rails por GitHub, Inc. Desde enero de 2010, GitHub opera bajo el nombre de GitHub, Inc. El   
+                                codigo se almacena de forma publica, aunque también se puede hacer de forma privada, creando una cuenta de
+                                pago.
 			</p>
 			
 		</div>
@@ -87,8 +94,7 @@
 		
 	</div>
 	<!-- END HOME TOP CONTENT -->
-
-	
+        
 	<!-- FOOTER -->
 	<div class="footer">
 		

@@ -56,7 +56,7 @@ img, input[type="text"], textarea, select{ background: #e4e2df; padding: 6px; bo
 .header{ margin-top: 20px; margin-bottom: 20px; }
 .logo{ font-size: 43px; float: left; }
 .logo a span{ font-size: 35px; }
-.logo a img{ vertical-align: -20%; border: none; background:#667F03 url("../img/header/logo.png") no-repeat; padding: 0px; ;} }
+.logo a img{ vertical-align: -20%; border: none; background:none; padding: 0px; ;} }
 .navigation{ float: right; margin-top: 6px; }
 .navigation ul li{ float: left; padding: 5px 10px; border-right: 1px solid #949495; }
 .navigation ul li:hover{ background: #e4e2df; }
