@@ -12820,3 +12820,698 @@ Rendering historials/new
   [4;36;1mProducto Load (0.2ms)[0m   [0;1mSELECT * FROM "productos" [0m
   [4;35;1mCliente Load (0.2ms)[0m   [0mSELECT * FROM "clientes" [0m
 Completed in 59ms (View: 53, DB: 1) | 200 OK [http://localhost/historials/new]
+
+
+Processing ProductosController#index (for 127.0.0.1 at 2012-09-22 12:01:26) [GET]
+  [4;36;1mProducto Load (3.1ms)[0m   [0;1mSELECT * FROM "productos" [0m
+Rendering template within layouts/application
+Rendering productos/index
+Completed in 457ms (View: 292, DB: 3) | 200 OK [http://localhost/productos]
+
+
+Processing ProductosController#new (for 127.0.0.1 at 2012-09-22 12:01:30) [GET]
+Rendering template within layouts/application
+Rendering productos/new
+  [4;35;1mProveedore Load (1.6ms)[0m   [0mSELECT * FROM "proveedores" [0m
+Completed in 265ms (View: 228, DB: 2) | 200 OK [http://localhost/productos/new]
+
+
+Processing ProductosController#index (for 127.0.0.1 at 2012-09-22 12:01:54) [GET]
+  [4;36;1mProducto Load (1.7ms)[0m   [0;1mSELECT * FROM "productos" [0m
+Rendering template within layouts/application
+Rendering productos/index
+Completed in 64ms (View: 40, DB: 2) | 200 OK [http://localhost/productos]
+
+
+Processing ProductosController#index (for 127.0.0.1 at 2012-09-22 12:18:36) [GET]
+  [4;36;1mProducto Load (3.0ms)[0m   [0;1mSELECT * FROM "productos" [0m
+Rendering template within layouts/application
+Rendering productos/index
+Completed in 241ms (View: 184, DB: 3) | 200 OK [http://localhost/productos]
+
+
+Processing ProductosController#new (for 127.0.0.1 at 2012-09-22 12:18:38) [GET]
+Rendering template within layouts/application
+Rendering productos/new
+  [4;35;1mProveedore Load (1.1ms)[0m   [0mSELECT * FROM "proveedores" [0m
+Completed in 117ms (View: 92, DB: 1) | 200 OK [http://localhost/productos/new]
+
+
+Processing ProductosController#index (for 127.0.0.1 at 2012-09-22 12:18:42) [GET]
+  [4;36;1mProducto Load (1.6ms)[0m   [0;1mSELECT * FROM "productos" [0m
+Rendering template within layouts/application
+Rendering productos/index
+Completed in 63ms (View: 39, DB: 2) | 200 OK [http://localhost/productos]
+
+
+Processing ProductosController#edit (for 127.0.0.1 at 2012-09-22 12:18:44) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mProducto Load (1.0ms)[0m   [0mSELECT * FROM "productos" WHERE ("productos"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering productos/edit
+Completed in 91ms (View: 65, DB: 1) | 200 OK [http://localhost/productos/1/edit]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-22 12:18:44) [GET]
+
+ActionController::RoutingError (No route matches "/productos/img/header/logo.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ProductosController#new (for 127.0.0.1 at 2012-09-22 12:20:17) [GET]
+Rendering template within layouts/application
+Rendering productos/new
+  [4;36;1mProveedore Load (1.2ms)[0m   [0;1mSELECT * FROM "proveedores" [0m
+Completed in 240ms (View: 206, DB: 1) | 200 OK [http://localhost/productos/new]
+
+
+Processing ProductosController#index (for 127.0.0.1 at 2012-09-22 12:20:21) [GET]
+  [4;35;1mProducto Load (2.7ms)[0m   [0mSELECT * FROM "productos" [0m
+Rendering template within layouts/application
+Rendering productos/index
+Completed in 62ms (View: 37, DB: 3) | 200 OK [http://localhost/productos]
+
+
+Processing ProductosController#edit (for 127.0.0.1 at 2012-09-22 12:20:23) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mProducto Load (0.9ms)[0m   [0;1mSELECT * FROM "productos" WHERE ("productos"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering productos/edit
+Completed in 71ms (View: 47, DB: 1) | 200 OK [http://localhost/productos/1/edit]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-22 12:20:24) [GET]
+
+ActionController::RoutingError (No route matches "/productos/img/header/logo.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ProductosController#edit (for 127.0.0.1 at 2012-09-22 12:20:28) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mProducto Load (1.0ms)[0m   [0mSELECT * FROM "productos" WHERE ("productos"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering productos/edit
+Completed in 75ms (View: 47, DB: 1) | 200 OK [http://localhost/productos/1/edit]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-22 12:20:28) [GET]
+
+ActionController::RoutingError (No route matches "/productos/img/header/logo.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ProveedoresController#index (for 127.0.0.1 at 2012-09-22 12:31:33) [GET]
+  [4;36;1mProveedore Load (3.4ms)[0m   [0;1mSELECT * FROM "proveedores" [0m
+Rendering template within layouts/application
+Rendering proveedores/index
+Completed in 163ms (View: 105, DB: 3) | 200 OK [http://localhost/proveedores]
+
+
+Processing ProveedoresController#show (for 127.0.0.1 at 2012-09-22 12:31:36) [GET]
+  Parameters: {"id"=>"5"}
+  [4;35;1mProveedore Load (0.8ms)[0m   [0mSELECT * FROM "proveedores" WHERE ("proveedores"."id" = 5) [0m
+Rendering template within layouts/application
+Rendering proveedores/show
+Completed in 60ms (View: 33, DB: 1) | 200 OK [http://localhost/proveedores/5]
+
+
+Processing ClientesController#index (for 127.0.0.1 at 2012-09-22 12:36:01) [GET]
+  [4;36;1mCliente Load (1.4ms)[0m   [0;1mSELECT * FROM "clientes" [0m
+Rendering template within layouts/application
+Rendering clientes/index
+Completed in 57ms (View: 32, DB: 1) | 200 OK [http://localhost/clientes]
+
+
+Processing ProductosController#index (for 127.0.0.1 at 2012-09-22 12:41:10) [GET]
+  [4;36;1mProducto Load (3.3ms)[0m   [0;1mSELECT * FROM "productos" [0m
+Rendering template within layouts/application
+Rendering productos/index
+Completed in 266ms (View: 177, DB: 3) | 200 OK [http://localhost/productos]
+
+
+Processing ProductosController#show (for 127.0.0.1 at 2012-09-22 12:41:17) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mProducto Load (1.2ms)[0m   [0mSELECT * FROM "productos" WHERE ("productos"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering productos/show
+Completed in 127ms (View: 84, DB: 1) | 200 OK [http://localhost/productos/1]
+
+
+Processing ProductosController#index (for 127.0.0.1 at 2012-09-22 12:41:29) [GET]
+  [4;36;1mProducto Load (2.5ms)[0m   [0;1mSELECT * FROM "productos" [0m
+Rendering template within layouts/application
+Rendering productos/index
+Completed in 105ms (View: 64, DB: 2) | 200 OK [http://localhost/productos]
+
+
+Processing ProductosController#show (for 127.0.0.1 at 2012-09-22 12:41:49) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mProducto Load (1.4ms)[0m   [0mSELECT * FROM "productos" WHERE ("productos"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering productos/show
+Completed in 104ms (View: 32, DB: 1) | 200 OK [http://localhost/productos/2]
+
+
+Processing ProductosController#index (for 127.0.0.1 at 2012-09-22 13:08:45) [GET]
+  [4;36;1mProducto Load (2.6ms)[0m   [0;1mSELECT * FROM "productos" [0m
+Rendering template within layouts/application
+Rendering productos/index
+Completed in 82ms (View: 58, DB: 3) | 200 OK [http://localhost/productos]
+
+
+Processing HistorialsController#index (for 127.0.0.1 at 2012-09-22 13:08:49) [GET]
+  [4;35;1mHistorial Load (2.1ms)[0m   [0mSELECT * FROM "historials" [0m
+Rendering template within layouts/application
+Rendering historials/index
+Completed in 138ms (View: 100, DB: 2) | 200 OK [http://localhost/historials]
+
+
+Processing ProveedoresController#index (for 127.0.0.1 at 2012-09-22 13:11:31) [GET]
+  [4;36;1mProveedore Load (2.3ms)[0m   [0;1mSELECT * FROM "proveedores" [0m
+Rendering template within layouts/application
+Rendering proveedores/index
+Completed in 354ms (View: 327, DB: 2) | 200 OK [http://localhost/proveedores]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-22 13:22:10) [GET]
+
+ActionController::RoutingError (No route matches "/data" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ProveedoresController#index (for 127.0.0.1 at 2012-09-29 22:31:17) [GET]
+  [4;36;1mProveedore Load (2.9ms)[0m   [0;1mSELECT * FROM "proveedores" [0m
+Rendering template within layouts/application
+Rendering proveedores/index
+Completed in 303ms (View: 198, DB: 3) | 200 OK [http://localhost/proveedores]
+
+
+Processing ClientesController#index (for 127.0.0.1 at 2012-09-29 22:31:19) [GET]
+  [4;35;1mCliente Load (1.4ms)[0m   [0mSELECT * FROM "clientes" [0m
+Rendering template within layouts/application
+Rendering clientes/index
+Completed in 108ms (View: 68, DB: 1) | 200 OK [http://localhost/clientes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-29 22:31:21) [GET]
+
+ActionController::RoutingError (No route matches "/productor" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-29 22:31:40) [GET]
+
+ActionController::RoutingError (No route matches "/productor" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-29 22:31:44) [GET]
+
+ActionController::RoutingError (No route matches "/productor" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-29 22:34:11) [GET]
+
+ActionController::RoutingError (No route matches "/productor" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ClientesController#index (for 127.0.0.1 at 2012-09-29 22:34:14) [GET]
+  [4;36;1mCliente Load (1.4ms)[0m   [0;1mSELECT * FROM "clientes" [0m
+Rendering template within layouts/application
+Rendering clientes/index
+Completed in 181ms (View: 29, DB: 1) | 200 OK [http://localhost/clientes]
+
+
+Processing ProductosController#index (for 127.0.0.1 at 2012-09-29 22:34:16) [GET]
+  [4;35;1mProducto Load (2.4ms)[0m   [0mSELECT * FROM "productos" [0m
+Rendering template within layouts/application
+Rendering productos/index
+Completed in 119ms (View: 83, DB: 2) | 200 OK [http://localhost/productos]
+
+
+Processing HistorialsController#index (for 127.0.0.1 at 2012-09-29 22:34:18) [GET]
+  [4;36;1mHistorial Load (2.0ms)[0m   [0;1mSELECT * FROM "historials" [0m
+Rendering template within layouts/application
+Rendering historials/index
+Completed in 65ms (View: 32, DB: 2) | 200 OK [http://localhost/historials]
+
+
+Processing ProveedoresController#index (for 127.0.0.1 at 2012-09-29 22:34:22) [GET]
+  [4;35;1mProveedore Load (2.4ms)[0m   [0mSELECT * FROM "proveedores" [0m
+Rendering template within layouts/application
+Rendering proveedores/index
+Completed in 68ms (View: 38, DB: 2) | 200 OK [http://localhost/proveedores]
+
+
+Processing ClientesController#index (for 127.0.0.1 at 2012-09-29 22:34:24) [GET]
+  [4;36;1mCliente Load (1.4ms)[0m   [0;1mSELECT * FROM "clientes" [0m
+Rendering template within layouts/application
+Rendering clientes/index
+Completed in 27ms (View: 5, DB: 1) | 200 OK [http://localhost/clientes]
+
+
+Processing ProductosController#index (for 127.0.0.1 at 2012-09-29 22:34:26) [GET]
+  [4;35;1mProducto Load (1.8ms)[0m   [0mSELECT * FROM "productos" [0m
+Rendering template within layouts/application
+Rendering productos/index
+Completed in 68ms (View: 42, DB: 2) | 200 OK [http://localhost/productos]
+
+
+Processing HistorialsController#index (for 127.0.0.1 at 2012-09-29 22:34:28) [GET]
+  [4;36;1mHistorial Load (1.4ms)[0m   [0;1mSELECT * FROM "historials" [0m
+Rendering template within layouts/application
+Rendering historials/index
+Completed in 37ms (View: 6, DB: 1) | 200 OK [http://localhost/historials]
+
+
+Processing HistorialsController#index (for 127.0.0.1 at 2012-09-29 22:37:14) [GET]
+  [4;35;1mHistorial Load (1.9ms)[0m   [0mSELECT * FROM "historials" [0m
+Rendering template within layouts/application
+Rendering historials/index
+Completed in 56ms (View: 29, DB: 2) | 200 OK [http://localhost/historials]
+
+
+Processing HistorialsController#index (for 127.0.0.1 at 2012-09-29 22:37:17) [GET]
+  [4;36;1mHistorial Load (2.2ms)[0m   [0;1mSELECT * FROM "historials" [0m
+Rendering template within layouts/application
+Rendering historials/index
+Completed in 173ms (View: 7, DB: 2) | 200 OK [http://localhost/historials]
+
+
+Processing HistorialsController#new (for 127.0.0.1 at 2012-09-29 22:37:19) [GET]
+Rendering template within layouts/application
+Rendering historials/new
+  [4;35;1mProveedore Load (1.2ms)[0m   [0mSELECT * FROM "proveedores" [0m
+  [4;36;1mProducto Load (0.9ms)[0m   [0;1mSELECT * FROM "productos" [0m
+  [4;35;1mCliente Load (0.8ms)[0m   [0mSELECT * FROM "clientes" [0m
+Completed in 224ms (View: 194, DB: 3) | 200 OK [http://localhost/historials/new]
+
+
+Processing HistorialsController#create (for 127.0.0.1 at 2012-09-29 22:37:22) [POST]
+  Parameters: {"authenticity_token"=>"J0wdz8GyiETKxKAFVqfqFJ/kyYpOg6xrfjSrCg7y0WY=", "commit"=>"Create", "historial"=>{"proveedore_id"=>"5", "Entrada"=>"", "Precio_total"=>"", "salida"=>"", "producto_id"=>"1"}}
+Rendering template within layouts/application
+Rendering historials/new
+  [4;36;1mProveedore Load (1.5ms)[0m   [0;1mSELECT * FROM "proveedores" [0m
+  [4;35;1mProducto Load (0.9ms)[0m   [0mSELECT * FROM "productos" [0m
+  [4;36;1mCliente Load (0.8ms)[0m   [0;1mSELECT * FROM "clientes" [0m
+Completed in 150ms (View: 109, DB: 3) | 200 OK [http://localhost/historials]
+
+
+Processing HistorialsController#index (for 127.0.0.1 at 2012-09-29 22:37:27) [GET]
+  [4;35;1mHistorial Load (2.1ms)[0m   [0mSELECT * FROM "historials" [0m
+Rendering template within layouts/application
+Rendering historials/index
+Completed in 29ms (View: 7, DB: 2) | 200 OK [http://localhost/historials]
+
+
+Processing ProductosController#index (for 127.0.0.1 at 2012-09-29 22:37:33) [GET]
+  [4;36;1mProducto Load (1.7ms)[0m   [0;1mSELECT * FROM "productos" [0m
+Rendering template within layouts/application
+Rendering productos/index
+Completed in 58ms (View: 38, DB: 2) | 200 OK [http://localhost/productos]
+
+
+Processing ProductosController#new (for 127.0.0.1 at 2012-09-29 22:37:34) [GET]
+Rendering template within layouts/application
+Rendering productos/new
+  [4;35;1mProveedore Load (1.6ms)[0m   [0mSELECT * FROM "proveedores" [0m
+Completed in 261ms (View: 236, DB: 2) | 200 OK [http://localhost/productos/new]
+
+
+Processing ProductosController#index (for 127.0.0.1 at 2012-09-29 22:37:39) [GET]
+  [4;36;1mProducto Load (2.0ms)[0m   [0;1mSELECT * FROM "productos" [0m
+Rendering template within layouts/application
+Rendering productos/index
+Completed in 80ms (View: 52, DB: 2) | 200 OK [http://localhost/productos]
+
+
+Processing ProductosController#edit (for 127.0.0.1 at 2012-09-29 22:37:43) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mProducto Load (0.8ms)[0m   [0mSELECT * FROM "productos" WHERE ("productos"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering productos/edit
+Completed in 109ms (View: 73, DB: 1) | 200 OK [http://localhost/productos/1/edit]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-29 22:37:44) [GET]
+
+ActionController::RoutingError (No route matches "/productos/img/header/logo.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ProductosController#public to html (for 127.0.0.1 at 2012-09-29 22:37:48) [GET]
+  Parameters: {"id"=>"index2"}
+
+ActionController::UnknownAction (No action responded to public. Actions: create, destroy, edit, index, new, show, and update):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ProductosController#edit (for 127.0.0.1 at 2012-09-29 22:38:30) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mProducto Load (1.1ms)[0m   [0;1mSELECT * FROM "productos" WHERE ("productos"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering productos/edit
+Completed in 111ms (View: 81, DB: 1) | 200 OK [http://localhost/productos/1/edit]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-29 22:38:30) [GET]
+
+ActionController::RoutingError (No route matches "/productos/public/img/header/logo.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-29 22:38:36) [GET]
+
+ActionController::RoutingError (No route matches "/productos/public/img/header/logo.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ProductosController#edit (for 127.0.0.1 at 2012-09-29 22:38:56) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mProducto Load (1.2ms)[0m   [0mSELECT * FROM "productos" WHERE ("productos"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering productos/edit
+Completed in 111ms (View: 81, DB: 1) | 200 OK [http://localhost/productos/1/edit]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-29 22:38:56) [GET]
+
+ActionController::RoutingError (No route matches "/productos/img/header/logo.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-29 22:39:00) [GET]
+
+ActionController::RoutingError (No route matches "/productos/img/header/logo.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-29 22:39:50) [GET]
+
+ActionController::RoutingError (No route matches "/productos/img/header/logo.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ProductosController#index (for 127.0.0.1 at 2012-09-29 22:40:04) [GET]
+  [4;36;1mProducto Load (2.5ms)[0m   [0;1mSELECT * FROM "productos" [0m
+Rendering template within layouts/application
+Rendering productos/index
+Completed in 81ms (View: 51, DB: 3) | 200 OK [http://localhost/productos]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-29 22:40:48) [GET]
+
+ActionController::RoutingError (No route matches "/productos/img/header/logo.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-29 22:40:49) [GET]
+
+ActionController::RoutingError (No route matches "/productos/img/header/logo.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ProductosController#index (for 127.0.0.1 at 2012-09-29 22:40:53) [GET]
+  [4;35;1mProducto Load (2.5ms)[0m   [0mSELECT * FROM "productos" [0m
+Rendering template within layouts/application
+Rendering productos/index
+Completed in 79ms (View: 51, DB: 2) | 200 OK [http://localhost/productos]
+
+
+Processing ProductosController#new (for 127.0.0.1 at 2012-09-29 22:40:56) [GET]
+Rendering template within layouts/application
+Rendering productos/new
+  [4;36;1mProveedore Load (1.6ms)[0m   [0;1mSELECT * FROM "proveedores" [0m
+Completed in 103ms (View: 73, DB: 2) | 200 OK [http://localhost/productos/new]
+
+
+Processing ProductosController#edit (for 127.0.0.1 at 2012-09-29 22:41:01) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mProducto Load (1.1ms)[0m   [0mSELECT * FROM "productos" WHERE ("productos"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering productos/edit
+Completed in 71ms (View: 45, DB: 1) | 200 OK [http://localhost/productos/1/edit]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-29 22:41:01) [GET]
+
+ActionController::RoutingError (No route matches "/productos/img/header/logo.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-29 22:41:04) [GET]
+
+ActionController::RoutingError (No route matches "/productos/img/header/logo.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-29 22:41:17) [GET]
+
+ActionController::RoutingError (No route matches "/productos/img/header/logo.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ProductosController#1 to html (for 127.0.0.1 at 2012-09-29 22:41:19) [GET]
+  Parameters: {"id"=>"index2"}
+
+ActionController::UnknownAction (No action responded to 1. Actions: create, destroy, edit, index, new, show, and update):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ProductosController#1 to html (for 127.0.0.1 at 2012-09-29 22:42:50) [GET]
+  Parameters: {"id"=>"index2"}
+
+ActionController::UnknownAction (No action responded to 1. Actions: create, destroy, edit, index, new, show, and update):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-29 22:42:52) [GET]
+
+ActionController::RoutingError (No route matches "/productos/img/header/logo.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ProductosController#1 to html (for 127.0.0.1 at 2012-09-29 22:42:55) [GET]
+  Parameters: {"id"=>"index2"}
+
+ActionController::UnknownAction (No action responded to 1. Actions: create, destroy, edit, index, new, show, and update):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ProductosController#edit (for 127.0.0.1 at 2012-09-29 22:42:58) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mProducto Load (1.1ms)[0m   [0;1mSELECT * FROM "productos" WHERE ("productos"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering productos/edit
+Completed in 104ms (View: 73, DB: 1) | 200 OK [http://localhost/productos/1/edit]
+
+
+Processing ProductosController#edit (for 127.0.0.1 at 2012-09-29 22:43:34) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mProducto Load (1.2ms)[0m   [0mSELECT * FROM "productos" WHERE ("productos"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering productos/edit
+Completed in 125ms (View: 83, DB: 1) | 200 OK [http://localhost/productos/1/edit]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-09-29 22:43:34) [GET]
+
+ActionController::RoutingError (No route matches "/productos/img/header/logo.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ProductosController#index (for 127.0.0.1 at 2012-09-29 22:44:37) [GET]
+  [4;36;1mProducto Load (2.7ms)[0m   [0;1mSELECT * FROM "productos" [0m
+Rendering template within layouts/application
+Rendering productos/index
+Completed in 80ms (View: 57, DB: 3) | 200 OK [http://localhost/productos]
+
+
+Processing ProductosController#new (for 127.0.0.1 at 2012-09-29 22:44:39) [GET]
+Rendering template within layouts/application
+Rendering productos/new
+  [4;35;1mProveedore Load (1.8ms)[0m   [0mSELECT * FROM "proveedores" [0m
+Completed in 242ms (View: 217, DB: 2) | 200 OK [http://localhost/productos/new]
+
+
+Processing ProductosController#edit (for 127.0.0.1 at 2012-09-29 22:44:43) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mProducto Load (0.8ms)[0m   [0;1mSELECT * FROM "productos" WHERE ("productos"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering productos/edit
+Completed in 75ms (View: 50, DB: 1) | 200 OK [http://localhost/productos/1/edit]
+
+
+Processing ProveedoresController#index (for 127.0.0.1 at 2012-10-06 12:50:23) [GET]
+  [4;36;1mProveedore Load (2.9ms)[0m   [0;1mSELECT * FROM "proveedores" [0m
+Rendering template within layouts/application
+Rendering proveedores/index
+Completed in 261ms (View: 170, DB: 3) | 200 OK [http://localhost/proveedores]
+
+
+Processing ProveedoresController#edit (for 127.0.0.1 at 2012-10-06 12:50:27) [GET]
+  Parameters: {"id"=>"5"}
+  [4;35;1mProveedore Load (1.0ms)[0m   [0mSELECT * FROM "proveedores" WHERE ("proveedores"."id" = 5) [0m
+Rendering template within layouts/application
+Rendering proveedores/edit
+Completed in 127ms (View: 101, DB: 1) | 200 OK [http://localhost/proveedores/5/edit]
+
+
+Processing ProveedoresController#index (for 127.0.0.1 at 2012-10-10 04:13:53) [GET]
+  [4;36;1mProveedore Load (2.1ms)[0m   [0;1mSELECT * FROM "proveedores" [0m
+Rendering template within layouts/application
+Rendering proveedores/index
+Completed in 328ms (View: 221, DB: 2) | 200 OK [http://localhost/proveedores]
+
+
+Processing ProveedoresController#show (for 127.0.0.1 at 2012-10-10 04:13:55) [GET]
+  Parameters: {"id"=>"5"}
+  [4;35;1mProveedore Load (0.9ms)[0m   [0mSELECT * FROM "proveedores" WHERE ("proveedores"."id" = 5) [0m
+Rendering template within layouts/application
+Rendering proveedores/show
+Completed in 60ms (View: 33, DB: 1) | 200 OK [http://localhost/proveedores/5]
+
+
+Processing HistorialsController#index (for 127.0.0.1 at 2012-10-10 04:14:03) [GET]
+  [4;36;1mHistorial Load (1.5ms)[0m   [0;1mSELECT * FROM "historials" [0m
+Rendering template within layouts/application
+Rendering historials/index
+Completed in 109ms (View: 55, DB: 2) | 200 OK [http://localhost/historials]
+
+
+Processing ProductosController#index (for 127.0.0.1 at 2012-10-10 04:15:43) [GET]
+  [4;35;1mProducto Load (1.9ms)[0m   [0mSELECT * FROM "productos" [0m
+Rendering template within layouts/application
+Rendering productos/index
+Completed in 136ms (View: 105, DB: 2) | 200 OK [http://localhost/productos]
+
+
+Processing ClientesController#index (for 127.0.0.1 at 2012-10-10 04:16:06) [GET]
+  [4;36;1mCliente Load (1.9ms)[0m   [0;1mSELECT * FROM "clientes" [0m
+Rendering template within layouts/application
+Rendering clientes/index
+Completed in 133ms (View: 92, DB: 2) | 200 OK [http://localhost/Clientes]
+
+
+Processing ProductosController#index (for 127.0.0.1 at 2012-10-10 04:16:10) [GET]
+  [4;35;1mProducto Load (2.7ms)[0m   [0mSELECT * FROM "productos" [0m
+Rendering template within layouts/application
+Rendering productos/index
+Completed in 201ms (View: 46, DB: 3) | 200 OK [http://localhost/productos]
+
+
+Processing HistorialsController#index (for 127.0.0.1 at 2012-10-10 04:16:13) [GET]
+  [4;36;1mHistorial Load (1.6ms)[0m   [0;1mSELECT * FROM "historials" [0m
+Rendering template within layouts/application
+Rendering historials/index
+Completed in 28ms (View: 4, DB: 2) | 200 OK [http://localhost/historials]
+
+
+Processing ProveedoresController#index (for 127.0.0.1 at 2012-10-10 04:16:17) [GET]
+  [4;35;1mProveedore Load (2.4ms)[0m   [0mSELECT * FROM "proveedores" [0m
+Rendering template within layouts/application
+Rendering proveedores/index
+Completed in 65ms (View: 41, DB: 2) | 200 OK [http://localhost/proveedores]
+
+
+Processing ProductosController#index (for 127.0.0.1 at 2012-10-10 04:16:47) [GET]
+  [4;36;1mProducto Load (1.8ms)[0m   [0;1mSELECT * FROM "productos" [0m
+Rendering template within layouts/application
+Rendering productos/index
+Completed in 62ms (View: 39, DB: 2) | 200 OK [http://localhost/productos]
+
+
+Processing ProductosController#new (for 127.0.0.1 at 2012-10-10 04:16:49) [GET]
+Rendering template within layouts/application
+Rendering productos/new
+  [4;35;1mProveedore Load (1.1ms)[0m   [0mSELECT * FROM "proveedores" [0m
+Completed in 120ms (View: 94, DB: 1) | 200 OK [http://localhost/productos/new]
+
+
+Processing ProductosController#edit (for 127.0.0.1 at 2012-10-10 04:16:56) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mProducto Load (1.1ms)[0m   [0;1mSELECT * FROM "productos" WHERE ("productos"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering productos/edit
+Completed in 89ms (View: 65, DB: 1) | 200 OK [http://localhost/productos/1/edit]
+
+
+Processing ClientesController#index (for 127.0.0.1 at 2012-10-10 04:17:50) [GET]
+  [4;35;1mCliente Load (2.0ms)[0m   [0mSELECT * FROM "clientes" [0m
+Rendering template within layouts/application
+Rendering clientes/index
+Completed in 26ms (View: 7, DB: 2) | 200 OK [http://localhost/clientes]
+
+
+Processing ProductosController#index (for 127.0.0.1 at 2012-10-10 04:20:26) [GET]
+  [4;36;1mProducto Load (2.2ms)[0m   [0;1mSELECT * FROM "productos" [0m
+Rendering template within layouts/application
+Rendering productos/index
+Completed in 88ms (View: 61, DB: 2) | 200 OK [http://localhost/productos]
+
+
+Processing ProductosController#index (for 127.0.0.1 at 2012-10-10 04:21:51) [GET]
+  [4;35;1mProducto Load (2.9ms)[0m   [0mSELECT * FROM "productos" [0m
+Rendering template within layouts/application
+Rendering productos/index
+Completed in 80ms (View: 48, DB: 3) | 200 OK [http://localhost/productos]
+
+
+Processing ProductosController#edit (for 127.0.0.1 at 2012-10-10 04:21:54) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mProducto Load (0.8ms)[0m   [0;1mSELECT * FROM "productos" WHERE ("productos"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering productos/edit
+Completed in 70ms (View: 44, DB: 1) | 200 OK [http://localhost/productos/1/edit]
