@@ -14,7 +14,8 @@ class ProveedoresController < ApplicationController
   # GET /proveedores/1.xml
   def show
     @proveedore = Proveedore.find(params[:id])
-
+    @productos = @proveedore.producto
+	
     respond_to do |format|
       format.html # show.html.erb
       format.xml  { render :xml => @proveedore }

@@ -1,39 +1,17 @@
-<p>
-  <b>Nombre:</b>
-  <%=h @proveedore.Nombre %>
-</p>
-
-<p>
-  <b>Nit:</b>
-  <%=h @proveedore.Nit %>
-</p>
-
-<p>
-  <b>Pais:</b>
-  <%=h @proveedore.Pais %>
-</p>
-
-<p>
-  <b>Direccion:</b>
-  <%=h @proveedore.Direccion %>
-</p>
-
-<p>
-  <b>Telefono:</b>
-  <%=h @proveedore.Telefono %>
-</p>
-
-<p>
-  <b>Fax:</b>
-  <%=h @proveedore.Fax %>
-</p>
-
-<p>
-  <b>Email:</b>
-  <%=h @proveedore.Email %>
-</p>
-
-
-
+<table border="0" cellspacing="5" cellpadding="2" width="70%">
+<tr>
+ <th>Nombre: </th><td><%= @proveedore.Nombre %></td>
+ <th>Nit:</th><td><%= @proveedore.Nit %></td>
+ <th>Pais:</th><td><%=h @proveedore.Pais %></td>
+ <th>Telefono:</th><td><%=h @proveedore.Telefono %></td>
+</tr>
+<tr>
+ <th>Direccion:</th><td COLSPAN = "3"><%=h @proveedore.Direccion %> </td>
+ <th>Fax:</th><td><%=h @proveedore.Fax %></td>
+ <th>Email:</th><td><%=h @proveedore.Email %></td>
+</tr>
+</table>
+<br>
+<%= render :partial => "productos/productos"%>
 <%= link_to '<img src="/img/reload.png" width=15, heidht=15 >', edit_proveedore_path(@proveedore) %> |
 <%= link_to '<img src="/img/back.png" width=15, heidht=15 >', proveedores_path %>
